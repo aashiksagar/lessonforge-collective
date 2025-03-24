@@ -20,8 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				heading: ['SF Pro Display', 'Inter', 'sans-serif'],
+				sans: ['Poppins', 'Inter', 'sans-serif'],
+				heading: ['Poppins', 'SF Pro Display', 'Inter', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -62,7 +62,7 @@ export default {
 					foreground: 'hsl(355, 100%, 100%)'
 				},
 				intermediate: {
-					DEFAULT: 'hsl(48, 96%, 53%)',
+					DEFAULT: 'hsl(31, 100%, 60%)',
 					foreground: 'hsl(20, 14%, 4%)'
 				},
 				advanced: {
@@ -78,7 +78,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				teal: {
+					50: '#E6FFFA',
+					100: '#B2F5EA',
+					200: '#81E6D9',
+					300: '#4FD1C5',
+					400: '#38B2AC',
+					500: '#00C4B4', // Primary teal
+					600: '#2C7A7B',
+					700: '#285E61',
+					800: '#234E52',
+					900: '#1D4044',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
