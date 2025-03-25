@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://rb.gy/0cfkkk
+**URL**: https://easylearn-beryl.vercel.app/
 
 ## How can I edit this code?
 
